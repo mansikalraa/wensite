@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: times new roman, sans-serif;
+	background-color: black;
+	color: white;
+}
+#home{
+	width: 100%;
+	height: 100vh;
+}
+.navbar{
+	position:fixed;
+	width: 100%;
+	background-color: black;
+	line-height: 50px;
+	z-index:10;
+}
+.logo{
+	width: 50px;
+	cursor: pointer;
+	margin: 10px auto;
+	display: block;
+}
+hr{
+	height:0.01em;
+	width: 50%;
+	margin: 0 auto;
+}
+nav{
+	flex: 1;
+	text-align: center;
+}
+nav ul li{
+	padding-top: 10px;
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: grey;
+}
+.hello{
+	position:absolute;
+	margin-top: 220px;
+	margin-left: 50px;
+	font-family: broadway;
+	padding-left: 2%;
+}
+.hello h1{
+	font-size: 120px;
+	line-height: 120px;
+}
+
+#about{
+	width: 70%;
+	height: 100vh;
+	margin: 0 auto;
+	padding-top: 150px;
+	font-size: 30px;
+	text-align: justify;
+}
+#about p{
+	margin: 8%;
+}
+#projects{
+	width: 100%;
+	height: 100vh;
+}
+
+@media only screen and (max-width:500px){
+	nav ul li{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	nav ul li a{
+		font-size: 15px;
+	}
+	.hello h1{
+		font-size: 70px;
+		line-height: 65px;
+	}
+	#about{
+		font-size: 18px;
+	}
+}
